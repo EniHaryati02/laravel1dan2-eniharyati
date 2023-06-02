@@ -23,7 +23,7 @@ use App\Http\Controllers\RegisterController;
 // });
 
 // Route::get('/home', function () {
-//     return 'semangat nay sebentar lagi selesai';
+//     return 'semangat sebentar lagi selesai';
 // });
 
 // Route::redirect('/nama', 'home');
