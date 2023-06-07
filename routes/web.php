@@ -63,3 +63,9 @@ Route::post('/login', [LoginController::class, 'authenticate']);
 
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'store']);
+
+//Tugas 26
+Route::post('/product/store', [APIproductController::class, 'store']);
+Route::put('/product/update', [APIproductController::class, 'update']);
+Route::get('/product', [APIproductController::class, 'index']);
+Route::delete('/product/delete/{id}', [APIproductController::class, 'delete']);
